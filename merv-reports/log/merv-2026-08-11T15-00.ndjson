@@ -1,0 +1,14 @@
+{"ts":"2026-08-11T15:02:55.815Z","level":"INFO","name":"Merv","msg":"<----- File javascript/collection.js ----->"}
+{"ts":"2026-08-11T15:02:55.816Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-11T15:02:55.817Z","level":"INFO","name":"Merv","msg":"call Boolean(…)"}
+{"ts":"2026-08-11T15:02:55.817Z","level":"INFO","name":"Merv","msg":"call Boolean(…) → true"}
+{"ts":"2026-08-11T15:02:55.817Z","level":"INFO","name":"Merv","msg":"l1 = true"}
+{"ts":"2026-08-11T15:02:55.818Z","level":"INFO","name":"Merv","msg":"console.log: true"}
+{"ts":"2026-08-11T15:02:55.819Z","level":"INFO","name":"Merv","msg":"console.log: boolean"}
+{"ts":"2026-08-11T15:02:55.819Z","level":"INFO","name":"Merv","msg":"vaibhavScienceMarks = 90"}
+{"ts":"2026-08-11T15:02:55.819Z","level":"INFO","name":"Merv","msg":"vaibhavMathMarks = 70"}
+{"ts":"2026-08-11T15:02:55.821Z","level":"INFO","name":"Merv","msg":"vaibhavArtsMarks = 80"}
+{"ts":"2026-08-11T15:02:55.821Z","level":"INFO","name":"Merv","msg":"vaibhavMarks = [90,70,80,\"vaibhahv\"]"}
+{"ts":"2026-08-11T15:02:55.821Z","level":"INFO","name":"Merv","msg":"console.log: 80"}
+{"ts":"2026-08-11T15:02:55.821Z","level":"INFO","name":"Merv","msg":"vaibhavMarks1 = {\"maths\":70,\"science\":90,\"arts\":80,\"name\":\"vaibhav\"}"}
+{"ts":"2026-08-11T15:02:55.822Z","level":"INFO","name":"Merv","msg":"console.log: 80"}

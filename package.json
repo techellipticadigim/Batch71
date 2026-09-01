@@ -1,0 +1,26 @@
+{
+  "name": "batch71",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "vaibhav" : "playwright test  --headed",
+    "smoke" : "playwright test --grep '@smoke'",
+    "sanity" : "playwright test --grep '@sanity'",
+    "regression" : "playwright test --grep '@reg'",
+    "tutoropen" : "merv-tutor open"
+  },
+  "dependencies": {
+    "merv-client": "^4.0.22",
+    "merv-tutor": "^4.0.22",
+    "playwright": "^1.61.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}

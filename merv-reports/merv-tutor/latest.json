@@ -1,0 +1,459 @@
+{
+  "version": 3,
+  "sourceFile": "javascript/collection.js",
+  "sourceText": "\n// falsy value - 0, \"\", NaN, null, undefined, false\nlet l1 = Boolean(parseInt(\"10px\"));\nconsole.log(l1);\nconsole.log(typeof l1);\n\n\n// science, math, arts\n\nlet vaibhavScienceMarks = 90;\nlet vaibhavMathMarks = 70;\nlet vaibhavArtsMarks = 80;\n\n// indexed - 0\nlet vaibhavMarks = [90, 70, 80, \"vaibhahv\"];\nconsole.log(vaibhavMarks[2]);\n\n\nlet vaibhavMarks1 = {\n    \"maths\" : 70,\n    \"science\" : 90,\n    \"arts\" : 80,\n    \"name\" : \"vaibhav\"\n}\nconsole.log(vaibhavMarks1.arts)\n",
+  "sourceLines": [
+    "",
+    "// falsy value - 0, \"\", NaN, null, undefined, false",
+    "let l1 = Boolean(parseInt(\"10px\"));",
+    "console.log(l1);",
+    "console.log(typeof l1);",
+    "",
+    "",
+    "// science, math, arts",
+    "",
+    "let vaibhavScienceMarks = 90;",
+    "let vaibhavMathMarks = 70;",
+    "let vaibhavArtsMarks = 80;",
+    "",
+    "// indexed - 0",
+    "let vaibhavMarks = [90, 70, 80, \"vaibhahv\"];",
+    "console.log(vaibhavMarks[2]);",
+    "",
+    "",
+    "let vaibhavMarks1 = {",
+    "    \"maths\" : 70,",
+    "    \"science\" : 90,",
+    "    \"arts\" : 80,",
+    "    \"name\" : \"vaibhav\"",
+    "}",
+    "console.log(vaibhavMarks1.arts)",
+    ""
+  ],
+  "codeLines": [
+    {
+      "sourceLine": 3,
+      "text": "let l1 = Boolean(parseInt(\"10px\"));"
+    },
+    {
+      "sourceLine": 4,
+      "text": "console.log(l1);"
+    },
+    {
+      "sourceLine": 5,
+      "text": "console.log(typeof l1);"
+    },
+    {
+      "sourceLine": 10,
+      "text": "let vaibhavScienceMarks = 90;"
+    },
+    {
+      "sourceLine": 11,
+      "text": "let vaibhavMathMarks = 70;"
+    },
+    {
+      "sourceLine": 12,
+      "text": "let vaibhavArtsMarks = 80;"
+    },
+    {
+      "sourceLine": 15,
+      "text": "let vaibhavMarks = [90, 70, 80, \"vaibhahv\"];"
+    },
+    {
+      "sourceLine": 16,
+      "text": "console.log(vaibhavMarks[2]);"
+    },
+    {
+      "sourceLine": 19,
+      "text": "let vaibhavMarks1 = {"
+    },
+    {
+      "sourceLine": 20,
+      "text": "    \"maths\" : 70,"
+    },
+    {
+      "sourceLine": 21,
+      "text": "    \"science\" : 90,"
+    },
+    {
+      "sourceLine": 22,
+      "text": "    \"arts\" : 80,"
+    },
+    {
+      "sourceLine": 23,
+      "text": "    \"name\" : \"vaibhav\""
+    },
+    {
+      "sourceLine": 24,
+      "text": "}"
+    },
+    {
+      "sourceLine": 25,
+      "text": "console.log(vaibhavMarks1.arts)"
+    }
+  ],
+  "files": [
+    {
+      "id": "javascript/collection.js",
+      "name": "javascript/collection.js",
+      "sourceText": "\n// falsy value - 0, \"\", NaN, null, undefined, false\nlet l1 = Boolean(parseInt(\"10px\"));\nconsole.log(l1);\nconsole.log(typeof l1);\n\n\n// science, math, arts\n\nlet vaibhavScienceMarks = 90;\nlet vaibhavMathMarks = 70;\nlet vaibhavArtsMarks = 80;\n\n// indexed - 0\nlet vaibhavMarks = [90, 70, 80, \"vaibhahv\"];\nconsole.log(vaibhavMarks[2]);\n\n\nlet vaibhavMarks1 = {\n    \"maths\" : 70,\n    \"science\" : 90,\n    \"arts\" : 80,\n    \"name\" : \"vaibhav\"\n}\nconsole.log(vaibhavMarks1.arts)\n",
+      "sourceLines": [
+        "",
+        "// falsy value - 0, \"\", NaN, null, undefined, false",
+        "let l1 = Boolean(parseInt(\"10px\"));",
+        "console.log(l1);",
+        "console.log(typeof l1);",
+        "",
+        "",
+        "// science, math, arts",
+        "",
+        "let vaibhavScienceMarks = 90;",
+        "let vaibhavMathMarks = 70;",
+        "let vaibhavArtsMarks = 80;",
+        "",
+        "// indexed - 0",
+        "let vaibhavMarks = [90, 70, 80, \"vaibhahv\"];",
+        "console.log(vaibhavMarks[2]);",
+        "",
+        "",
+        "let vaibhavMarks1 = {",
+        "    \"maths\" : 70,",
+        "    \"science\" : 90,",
+        "    \"arts\" : 80,",
+        "    \"name\" : \"vaibhav\"",
+        "}",
+        "console.log(vaibhavMarks1.arts)",
+        ""
+      ],
+      "codeLines": [
+        {
+          "sourceLine": 3,
+          "text": "let l1 = Boolean(parseInt(\"10px\"));"
+        },
+        {
+          "sourceLine": 4,
+          "text": "console.log(l1);"
+        },
+        {
+          "sourceLine": 5,
+          "text": "console.log(typeof l1);"
+        },
+        {
+          "sourceLine": 10,
+          "text": "let vaibhavScienceMarks = 90;"
+        },
+        {
+          "sourceLine": 11,
+          "text": "let vaibhavMathMarks = 70;"
+        },
+        {
+          "sourceLine": 12,
+          "text": "let vaibhavArtsMarks = 80;"
+        },
+        {
+          "sourceLine": 15,
+          "text": "let vaibhavMarks = [90, 70, 80, \"vaibhahv\"];"
+        },
+        {
+          "sourceLine": 16,
+          "text": "console.log(vaibhavMarks[2]);"
+        },
+        {
+          "sourceLine": 19,
+          "text": "let vaibhavMarks1 = {"
+        },
+        {
+          "sourceLine": 20,
+          "text": "    \"maths\" : 70,"
+        },
+        {
+          "sourceLine": 21,
+          "text": "    \"science\" : 90,"
+        },
+        {
+          "sourceLine": 22,
+          "text": "    \"arts\" : 80,"
+        },
+        {
+          "sourceLine": 23,
+          "text": "    \"name\" : \"vaibhav\""
+        },
+        {
+          "sourceLine": 24,
+          "text": "}"
+        },
+        {
+          "sourceLine": 25,
+          "text": "console.log(vaibhavMarks1.arts)"
+        }
+      ],
+      "executedAt": "2026-08-11T15:05:16.268Z",
+      "complexity": {
+        "time": "O(1)",
+        "space": "O(1)",
+        "maxLoopDepth": 0,
+        "growsCollection": false,
+        "recursive": false
+      }
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "line": 0,
+      "kind": "start",
+      "label": "Execution started",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 1,
+      "line": 0,
+      "kind": "call",
+      "label": "Boolean(…) → true",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 2,
+      "line": 3,
+      "kind": "var",
+      "label": "l1",
+      "vars": {
+        "l1": true
+      },
+      "consoleLines": [],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 3,
+      "line": 4,
+      "kind": "console",
+      "label": "console.log: true",
+      "vars": {
+        "l1": true
+      },
+      "consoleLines": [
+        "true"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 4,
+      "line": 5,
+      "kind": "console",
+      "label": "console.log: boolean",
+      "vars": {
+        "l1": true
+      },
+      "consoleLines": [
+        "true",
+        "boolean"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 5,
+      "line": 10,
+      "kind": "var",
+      "label": "vaibhavScienceMarks",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90
+      },
+      "consoleLines": [
+        "true",
+        "boolean"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 6,
+      "line": 11,
+      "kind": "var",
+      "label": "vaibhavMathMarks",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90,
+        "vaibhavMathMarks": 70
+      },
+      "consoleLines": [
+        "true",
+        "boolean"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 7,
+      "line": 12,
+      "kind": "var",
+      "label": "vaibhavArtsMarks",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90,
+        "vaibhavMathMarks": 70,
+        "vaibhavArtsMarks": 80
+      },
+      "consoleLines": [
+        "true",
+        "boolean"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 8,
+      "line": 15,
+      "kind": "var",
+      "label": "vaibhavMarks",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90,
+        "vaibhavMathMarks": 70,
+        "vaibhavArtsMarks": 80,
+        "vaibhavMarks": [
+          90,
+          70,
+          80,
+          "vaibhahv"
+        ]
+      },
+      "consoleLines": [
+        "true",
+        "boolean"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 9,
+      "line": 16,
+      "kind": "console",
+      "label": "console.log: 80",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90,
+        "vaibhavMathMarks": 70,
+        "vaibhavArtsMarks": 80,
+        "vaibhavMarks": [
+          90,
+          70,
+          80,
+          "vaibhahv"
+        ]
+      },
+      "consoleLines": [
+        "true",
+        "boolean",
+        "80"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 10,
+      "line": 19,
+      "kind": "var",
+      "label": "vaibhavMarks1",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90,
+        "vaibhavMathMarks": 70,
+        "vaibhavArtsMarks": 80,
+        "vaibhavMarks": [
+          90,
+          70,
+          80,
+          "vaibhahv"
+        ],
+        "vaibhavMarks1": {
+          "maths": 70,
+          "science": 90,
+          "arts": 80,
+          "name": "vaibhav"
+        }
+      },
+      "consoleLines": [
+        "true",
+        "boolean",
+        "80"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 11,
+      "line": 25,
+      "kind": "console",
+      "label": "console.log: 80",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90,
+        "vaibhavMathMarks": 70,
+        "vaibhavArtsMarks": 80,
+        "vaibhavMarks": [
+          90,
+          70,
+          80,
+          "vaibhahv"
+        ],
+        "vaibhavMarks1": {
+          "maths": 70,
+          "science": 90,
+          "arts": 80,
+          "name": "vaibhav"
+        }
+      },
+      "consoleLines": [
+        "true",
+        "boolean",
+        "80",
+        "80"
+      ],
+      "fileId": "javascript/collection.js"
+    },
+    {
+      "index": 12,
+      "line": 0,
+      "kind": "end",
+      "label": "Execution completed",
+      "vars": {
+        "l1": true,
+        "vaibhavScienceMarks": 90,
+        "vaibhavMathMarks": 70,
+        "vaibhavArtsMarks": 80,
+        "vaibhavMarks": [
+          90,
+          70,
+          80,
+          "vaibhahv"
+        ],
+        "vaibhavMarks1": {
+          "maths": 70,
+          "science": 90,
+          "arts": 80,
+          "name": "vaibhav"
+        }
+      },
+      "consoleLines": [
+        "true",
+        "boolean",
+        "80",
+        "80"
+      ],
+      "fileId": "javascript/collection.js"
+    }
+  ],
+  "stats": {
+    "totalSteps": 13,
+    "totalIterations": 0,
+    "filesExecuted": 1,
+    "byFile": [
+      {
+        "fileId": "javascript/collection.js",
+        "name": "javascript/collection.js",
+        "steps": 13,
+        "iterations": 0
+      }
+    ]
+  },
+  "updatedAt": "2026-08-11T15:05:16.268Z"
+}

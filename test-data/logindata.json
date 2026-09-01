@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "isActive": true,
+  "roles": ["admin", "user"],
+  "profile": {
+    "city": "Pune",
+    "age": 28
+  }
+}
